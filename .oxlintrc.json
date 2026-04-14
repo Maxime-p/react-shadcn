@@ -1,6 +1,5 @@
 {
   "rules": {
-    "jsx-a11y/button-has-type": "off",
     "jsx-a11y/label-has-associated-control": "off"
   }
 }
