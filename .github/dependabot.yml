@@ -8,3 +8,12 @@ updates:
           - '*'
     schedule:
       interval: monthly
+
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    groups:
+      all-dependencies:
+        patterns:
+          - '*'
+    schedule:
+      interval: monthly
