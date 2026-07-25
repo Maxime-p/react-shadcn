@@ -30,6 +30,8 @@ jobs:
             command: pnpm format:check
           - name: Build
             command: pnpm build
+          - name: React Doctor
+            command: pnpm exec react-doctor
 
     steps:
       - name: Checkout
