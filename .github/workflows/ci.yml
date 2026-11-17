@@ -36,6 +36,8 @@ jobs:
             command: pnpm exec playwright install --with-deps chromium && pnpm test:e2e
           - name: React Doctor
             command: pnpm exec react-doctor --blocking warning --no-score
+          - name: Modern Web Guidance
+            command: pnpm web:check
 
     steps:
       - name: Checkout
